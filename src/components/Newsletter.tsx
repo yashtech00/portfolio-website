@@ -17,20 +17,20 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="mb-16">
-      <div className="bg-white/5 backdrop-blur-sm rounded-lg p-8 border border-white/10 text-center">
+    <section className="mb-16 px-4">
+      <div className="bg-white/5 backdrop-blur-sm rounded-lg p-4 md:p-8 border border-white/10 text-center">
         <div className="flex justify-center mb-4">
           <div className="p-3 bg-blue-500/20 rounded-full">
             <Mail className="w-6 h-6 text-blue-400" />
           </div>
         </div>
-        <h2 className="text-2xl font-bold text-white mb-2">Stay Updated</h2>
-        <p className="text-gray-400 mb-6 text-sm">
+        <h2 className="text-xl md:text-2xl font-bold text-white mb-2">Stay Updated</h2>
+        <p className="text-gray-400 mb-6 text-sm px-2">
           Subscribe to get notified about my latest projects and tech insights
         </p>
         
         {!isSubmitted ? (
-          <form onSubmit={handleSubmit} className="flex gap-2 max-w-sm mx-auto">
+          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 max-w-sm mx-auto">
             <input
               type="email"
               value={email}
@@ -41,14 +41,14 @@ const Newsletter = () => {
             />
             <button
               type="submit"
-              className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 flex items-center gap-1 text-sm"
+              className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 flex items-center justify-center gap-1 text-sm whitespace-nowrap"
             >
               <Send size={14} />
               Subscribe
             </button>
           </form>
         ) : (
-          <div className="text-green-400 text-sm">
+          <div className="text-green-400 text-sm px-2">
             ✓ Thank you for subscribing! You'll hear from me soon.
           </div>
         )}
