@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "CodePlus - Coding Platform",
       description: "CodePlus boosts coding skills with diverse data structure and algorithm problems. It offers challenging exercises for developer proficiency enhancement. Practice on CodePlus to sharpen problem-solving abilities.",
-      image: "https://media.licdn.com/dms/image/v2/D562DAQEn2kiOb_mgdg/profile-treasury-image-shrink_800_800/B56ZWtCt3XGUAY-/0/1742364926826?e=1751972400&v=beta&t=Rod6L9i0KSiHQ_eEsrrv8Iw8n8CNa5Y6JZFNVzq7Ckg",
+      image: "codePlus.png",
       tech: ["Next.js 15","React", "Typescript","TurboRepo", "PostgreSQL", "NextAuth", "Express.js","TailwindCSS","Prisma-ORM","Shadcn-ui "],    
       github: "https://github.com/yashtech00/codeplus",
       live: "https://codeplus-sage.vercel.app/"
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "JobHost - Job Portal",
       description: "JobHost is a comprehensive job portal application designed to connect job seekers with employers. Built using Next.js, React.js, Node.js, PostgreSQL, and Prisma, it provides a seamless experience for job searching, hiring.",
-      image: "https://private-user-images.githubusercontent.com/141262414/434018704-871a65b6-5738-4433-afc2-2798bb333fcc.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTEzNTA2NjksIm5iZiI6MTc1MTM1MDM2OSwicGF0aCI6Ii8xNDEyNjI0MTQvNDM0MDE4NzA0LTg3MWE2NWI2LTU3MzgtNDQzMy1hZmMyLTI3OThiYjMzM2ZjYy5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwMVQwNjEyNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ODYwNGZlYTVhOWViZGJmZTE3ZWQ2OTFlNDBlODNmNmRmMGRiYTA2ZGJmM2JlMzc5NzM2MDAwYTIzNDgxNjdlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.c8IMmRgVUtaCcMYpKPSUtW42R4hFDXA4io92jLXY_HQ",
+      image: "jobhost.png",
       tech: ["Next.js", "React", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
       github: "https://github.com/yashtech00/JobHost",
       live: "#"
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "Tic-Tac-Toe - classic Game",
       description: "Tic-Tac-Toe is a real-time multiplayer game built with the MERN stack. It features WebSockets for seamless chat between opponents during matches. The application provides a user-friendly interface and is fully responsive across devices. Enjoy classic gameplay with real-time communication!",
-      image: "https://private-user-images.githubusercontent.com/141262414/434030776-1509bccf-6729-4706-879b-13b1f835546e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTEzNjQyNjMsIm5iZiI6MTc1MTM2Mzk2MywicGF0aCI6Ii8xNDEyNjI0MTQvNDM0MDMwNzc2LTE1MDliY2NmLTY3MjktNDcwNi04NzliLTEzYjFmODM1NTQ2ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwMVQwOTU5MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lOTYwNTE4M2M3ZDU3MGEwYzJmZDA2NGU2NmI5ZDFkYjliZTAzNmFhZTNlMDcxMDkxM2ZkZDM2NjIyYjMxYjU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MIUy7clvAQTSzxFNumWzGn1YOtP_zYiYU_i-1Xrul00",
+      image: "tic-tac-toe.png",
       tech: ["React", "Typescript", "Socket.IO", "Node.js", "Express", "MongoDB", "TailwindCSS"],
       github: "https://github.com",
       live: "#"
