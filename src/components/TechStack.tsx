@@ -31,24 +31,24 @@ const TechStack = () => {
   ];
 
   return (
-    <section className="mb-20">
-      <h2 className="text-4xl font-bold text-white text-center mb-12">Tech Stack</h2>
-      <div className="space-y-8">
+    <section className="mb-16">
+      <h2 className="text-3xl font-bold text-white text-center mb-8">Tech Stack</h2>
+      <div className="space-y-6">
         {technologies.map((category) => (
-          <div key={category.category} className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10">
-            <h3 className="text-2xl font-semibold text-white mb-6 text-center">{category.category}</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div key={category.category} className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
+            <h3 className="text-xl font-semibold text-white mb-4 text-center">{category.category}</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {category.skills.map((skill) => (
                 <div 
                   key={skill.name} 
-                  className="flex flex-col items-center p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-all duration-300 hover:transform hover:scale-105"
+                  className="flex flex-col items-center p-3 bg-white/5 rounded-lg hover:bg-white/10 transition-all duration-300 hover:transform hover:scale-105"
                 >
                   <img 
                     src={skill.logo} 
                     alt={skill.name}
-                    className="w-12 h-12 mb-3 filter brightness-0 invert"
+                    className="w-8 h-8 mb-2 filter brightness-0 invert"
                   />
-                  <span className="text-gray-300 text-sm font-medium">{skill.name}</span>
+                  <span className="text-gray-300 text-xs font-medium">{skill.name}</span>
                 </div>
               ))}
             </div>
@@ -56,11 +56,11 @@ const TechStack = () => {
         ))}
       </div>
       
-      <div className="text-center mt-12">
-        <p className="text-gray-400 mb-6">Ready to bring your ideas to life with modern technology</p>
+      <div className="text-center mt-8">
+        <p className="text-gray-400 mb-4 text-sm">Ready to bring your ideas to life with modern technology</p>
         <a 
           href="mailto:contact@example.com" 
-          className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300 hover:transform hover:scale-105"
+          className="inline-flex items-center px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium rounded-full hover:from-blue-600 hover:to-purple-700 transition-all duration-300 hover:transform hover:scale-105 text-sm"
         >
           Get In Touch
         </a>
