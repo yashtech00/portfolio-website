@@ -12,18 +12,18 @@ const Education = () => {
           </div>
           <div className="flex-1">
             <h3 className="text-xl font-semibold text-white mb-2">Bachelor of Technology</h3>
-            <h4 className="text-lg text-blue-400 mb-2">Computer Science Engineering</h4>
-            <p className="text-gray-400 mb-3">University Name</p>
+            <h4 className="text-lg text-blue-400 mb-2">Information Technology</h4>
+            <p className="text-gray-400 mb-3">Jabalpur engineering college</p>
             <div className="flex items-center gap-2 text-gray-500 mb-3">
               <Calendar size={14} />
               <span className="text-sm">2020 - 2024</span>
             </div>
             <div className="space-y-1">
               <p className="text-gray-400 text-sm">
-                <span className="text-white font-medium">CGPA:</span> 8.5/10
+                <span className="text-white font-medium">CGPA:</span> 7.35/10
               </p>
               <p className="text-gray-400 text-sm">
-                <span className="text-white font-medium">Relevant Coursework:</span> 
+                <span className="text-white font-medium">Relevant Coursework: </span> 
                 Data Structures & Algorithms, Database Management Systems, Operating Systems, 
                 Computer Networks, Software Engineering, Web Development
               </p>

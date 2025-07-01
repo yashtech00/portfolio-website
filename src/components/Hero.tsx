@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="">
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+              src="image.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
@@ -30,7 +30,7 @@ const Hero = () => {
          
            <h2 className="text-xl text-white font-semibold  mb-4">About</h2>
           <p className="text-base text-gray-400 leading-relaxed mb-6">
-            Passionate Full Stack Developer from Haryana, India, skilled in the MERN Stack.
+            Passionate Full Stack Developer from Bhopal, M.P, India, skilled in the MERN Stack.
             Focused on building efficient, scalable, and user-centric web applications.
             Experience with Cloud services and DevOps practices for modern deployments.
             Active community contributor, sharing projects and learning in public.
@@ -42,14 +42,14 @@ const Hero = () => {
           </div>
           <div className="flex gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/yashtech00"
               className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
               aria-label="GitHub"
             >
               <Github className="w-5 h-5 text-white" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yash00tech/"
               className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
               aria-label="LinkedIn"
             >

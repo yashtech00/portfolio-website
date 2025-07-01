@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Education from '../components/Education';
 import TechStack from '../components/TechStack';
+import Newsletter from '@/components/Newsletter';
 
 const Index = () => {
   return (
@@ -11,7 +12,8 @@ const Index = () => {
         <Hero />
         <Projects />
         <Education />
-        <TechStack />
+        {/* <TechStack /> */}
+        <Newsletter/>
       </div>
     </div>
   );
