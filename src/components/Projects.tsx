@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "CodePlus - Coding Platform",
       description: "CodePlus boosts coding skills with diverse data structure and algorithm problems. It offers challenging exercises for developer proficiency enhancement. Practice on CodePlus to sharpen problem-solving abilities.",
-      image: "codePlus.png",
+      image: "https://res.cloudinary.com/daqreikux/image/upload/v1751370582/codePlus_cyzuws.png",
       tech: ["Next.js 15","React", "Typescript","TurboRepo", "PostgreSQL", "NextAuth", "Express.js","TailwindCSS","Prisma-ORM","Shadcn-ui "],    
       github: "https://github.com/yashtech00/codeplus",
       live: "https://codeplus-sage.vercel.app/"
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "JobHost - Job Portal",
       description: "JobHost is a comprehensive job portal application designed to connect job seekers with employers. Built using Next.js, React.js, Node.js, PostgreSQL, and Prisma, it provides a seamless experience for job searching, hiring.",
-      image: "jobhost.png",
+      image: "https://res.cloudinary.com/daqreikux/image/upload/v1751370583/jobhost_kd1oge.png",
       tech: ["Next.js", "React", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
       github: "https://github.com/yashtech00/JobHost",
       live: "#"
@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: "Tweetify - Social Media Platform",
       description: "Tweetify is a full-stack Twitter clone developed with the MERN stack, TypeScript, and Tailwind CSS. It mimics essential Twitter functionalities such as posting tweets, liking, commenting, managing user profiles, and receiving notifications through polling. The platform allows users to register, log in",
-      image: "tweetify.png",
+      image: "https://res.cloudinary.com/daqreikux/image/upload/v1751370582/tweetify_sxf73l.png",
       tech: ["React", "Typescript", "Node.js", "Express", "MongoDB", "TailwindCSS"],
       github: "https://github.com/yashtech00/Tweetify",
       live: "https://tweetify-1.onrender.com/"
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "Tic-Tac-Toe - classic Game",
       description: "Tic-Tac-Toe is a real-time multiplayer game built with the MERN stack. It features WebSockets for seamless chat between opponents during matches. The application provides a user-friendly interface and is fully responsive across devices. Enjoy classic gameplay with real-time communication!",
-      image: "tic-tac-toe.png",
+      image: "https://res.cloudinary.com/daqreikux/image/upload/v1751370582/tic-tac-toe_vxl5eq.png",
       tech: ["React", "Typescript", "Socket.IO", "Node.js", "Express", "MongoDB", "TailwindCSS"],
       github: "https://github.com",
       live: "#"

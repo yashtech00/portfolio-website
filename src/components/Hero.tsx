@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="">
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
             <img
-              src="image.jpg"
+              src="https://res.cloudinary.com/daqreikux/image/upload/v1751370786/IMG_20221205_195122_942_2_gn5oyr.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
