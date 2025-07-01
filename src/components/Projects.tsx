@@ -4,12 +4,12 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce application built with MERN stack featuring user authentication, payment integration, and admin dashboard.",
+      title: "CodePlus - Coding Platform",
+      description: "CodePlus boosts coding skills with diverse data structure and algorithm problems. It offers challenging exercises for developer proficiency enhancement. Practice on CodePlus to sharpen problem-solving abilities.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
-      tech: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      github: "https://github.com",
-      live: "https://example.com"
+      tech: ["Next.js 15","React", "Typescript","TurboRepo", "PostgreSQL", "NextAuth", "Express.js","TailwindCSS","Prisma-ORM","Shadcn-ui "],    
+      github: "https://github.com/yashtech00/codeplus",
+      live: "https://codeplus-sage.vercel.app/"
     },
     {
       title: "Task Management App",
@@ -39,7 +39,8 @@ const Projects = () => {
 
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold text-white text-center mb-8">Featured Projects</h2>
+      <h2 className="text-3xl font-bold text-white text-center">Some of my cool stuff</h2>
+      <h2 className="text-xl font-normal text-gray-500 text-center mb-8  ">I’ve worked on a variety of fun projects, from simple websites to full-stack web applications.Here are a few of my favorites.You can find more on my Projects Page.</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project, index) => (
           <div 
