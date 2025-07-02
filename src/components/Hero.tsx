@@ -1,12 +1,12 @@
 
-import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Paperclip } from 'lucide-react';
 
 const Hero = () => {
   return (
     <section className="mb-20 animate-fade-in">
       <div className='flex justify-between '>
-      <div>
-         <h1 className="text-5xl font-bold text-white mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+        <div>
+          <h1 className="text-5xl font-bold text-white mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Hi, I'am Yash
           </h1>
           <h2 className="text-xl text-gray-300 mb-4">Full Stack Developer</h2>
@@ -21,14 +21,14 @@ const Hero = () => {
             />
           </div>
         </div>
-        </div>
+      </div>
 
 
       <div className="">
         {/* Left side - Text content */}
         <div className="">
-         
-           <h2 className="text-xl text-white font-semibold  mb-4">About</h2>
+
+          <h2 className="text-xl text-white font-semibold  mb-4">About</h2>
           <p className="text-base text-gray-400 leading-relaxed mb-6">
             Passionate Full Stack Developer from Bhopal, M.P, India, skilled in the MERN Stack.
             Focused on building efficient, scalable, and user-centric web applications.
@@ -43,29 +43,39 @@ const Hero = () => {
           <div className="flex gap-4">
             <a
               href="https://github.com/yashtech00"
-              className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
+              className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110 flex items-center"
               aria-label="GitHub"
             >
               <Github className="w-5 h-5 text-white" />
             </a>
             <a
               href="https://www.linkedin.com/in/yash00tech/"
-              className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
+              className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110 flex items-center"
               aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5 text-white" />
             </a>
             <a
               href="mailto:contact@example.com"
-              className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
+              className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110 flex items-center"
               aria-label="Email"
             >
               <Mail className="w-5 h-5 text-white" />
             </a>
+            <a
+              href="https://drive.google.com/file/d/176MvF9xV8mzibHHEHiFuGFxvl7zK6Orr/view?usp=sharing"
+              className="p-2 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110 flex space-x-2 items-center"
+              aria-label="Resume"
+            >
+              <Paperclip className="w-5 h-5 text-white " />
+              <span className="text-white">Resume</span>
+            </a>
+
+
           </div>
         </div>
 
-        
+
       </div>
     </section>
   );
